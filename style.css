@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: white;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: #111111;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+nav .two{
+    font-size: 25px;
+    background-color: rgb(29, 29, 29);
+    width: 450px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+}
+
+.two a:hover{
+    color: #D5F903;
+    transition: all .2s ease;
+}
+
+nav .three{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.three i{
+    font-size: 30px;
+}
+
+.three button{
+    color: white;
+    padding: 25px 20px;
+    font-size: 25px;
+    background-color: transparent;
+    border: 3px solid #D5F903;
+    border-radius: 50px;
+}
+
+.view1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.view1 .textimg{
+    margin-top: 10px;
+    font-weight: 100;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family:Arial, Helvetica, sans-serif; */
+}
+
+.textimg img{
+    margin-left: 10px;
+    width: 1.5%;
+    /* object-fit: cover; */
+}
+
+.view1 .heading{
+    margin-top: 10px;
+}
+
+.view2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.view2 .one{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    width: 20%;
+    height: 100%;
+}
+
+.one img{
+    width: 50%;
+    margin-right: 10%;
+}
+
+.one p{
+    width: 75%;
+    font-size: 20px;
+    opacity: .7;
+    padding: 50px;
+    margin-left: 100px;
+}
+
+.one .imgarr{
+    position: absolute;
+    width: 300px;
+    top: -10%;
+    left: 90%;
+}
+
+.view2 .two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 70%;
+}
+
+.two img{
+    background-size: cover;
+    width: 70%;
+}
+
+.view2 .three{
+    width: 20%;
+    height: 75%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* gap: 20px; */
+    color: white;
+}
+
+.three .one{
+    display: flex;
+    font-size: 25px;
+    background-color: red;
+}
+
+.one span{
+    
+}
